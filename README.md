@@ -22,12 +22,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
   npm install
   npx prisma migrate deploy
   ```
-2. Build on local and upload to remote vps
+
+2. Start server on remote vps
   ```shell
   npm run build
-  npm run upload
-  ```
-3. Start server on remote vps
-  ```shell
   npm run start
   ```
