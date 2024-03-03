@@ -1,6 +1,7 @@
 import { prisma } from "@/db";
 import TodoItem from "@/components/TodoItem";
 import Link from "next/link";
+import {revalidatePath} from "next/cache";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +15,8 @@ async function toggleTodo(id: string, complete: boolean) {
     where: { id },
     data: { complete },
   });
+
+  revalidatePath('/');
 }
 
 

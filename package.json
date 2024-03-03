@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "upload":"ssh vultr_sv 'cd NextVerse; git pull' && rsync -avzhP --delete ~/Documents/nextjs/NextVerse/.next/ vultr_sv:NextVerse/.next/"
+    "lint": "next lint"
   },
   "dependencies": {
     "@prisma/client": "^5.10.2",
