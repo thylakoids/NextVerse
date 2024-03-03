@@ -35,7 +35,7 @@ export default function Page() {
         />
         <div className="flex gap-1 justify-end">
           <Link
-            href=".."
+            href="/"
             className="border border-slate-300 bg-transparent rounded px-2 py-1 outline-none
           focus-within:border-slate-100"
           >
