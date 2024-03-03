@@ -20,6 +20,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
   git clone git@github.com:thylakoids/NextVerse.git
   cd NextVerse
   npm install
+  npx prisma migrate deploy
   ```
 2. Build on local and upload to remote vps
   ```shell
